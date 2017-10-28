@@ -1,0 +1,45 @@
+{
+  "name": "leaders",
+  "plural": "leaders",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "''"
+    },
+    "image": {
+      "type": "string",
+      "required": true,
+      "default": "''"
+    },
+    "designation": {
+      "type": "string",
+      "required": true,
+      "default": "''"
+    },
+    "abbr": {
+      "type": "string",
+      "required": true,
+      "default": "''"
+    },
+    "featured": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "''"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
